@@ -62,11 +62,11 @@ nav a{
 .img1{
     width: 60%;
     position: relative;
-    left: 39%;
+    left: 28%;
     top: 15px;
 }
 .all{
-    width: 100%;
+    width: 89%;
     margin-left: 12%;
     display: flex;
     flex-wrap: wrap;
