@@ -1,0 +1,187 @@
+body{
+font-family: 'Courier New', Courier, monospace;
+margin: 0;
+background-color: rgb(255, 255, 255);
+color: black;
+}
+header{
+    display: flex;
+    background-color:#2E2E2E;
+    position: relative;
+}
+header img{
+    width: 10%;
+}
+.poshuk{
+    width: 30%;
+    height: 30px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    left: 10%;
+    top: 20px;
+}
+header h1{
+    font-size: 45px;
+    position: relative;
+    left: 30%;
+}
+nav{
+
+    display: flex;
+    width: 80%;
+    justify-content: space-evenly;
+    position: relative;
+    top: 80px;
+    right: 20%;
+    
+}
+nav a{
+    color:black;
+    background-color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 1%;
+    width: 10%;
+    height: 20px;
+    text-align: center;
+}
+.text{
+    all: unset;
+    position: fixed;
+    width: 20%;
+    height: 100%;
+    padding: 2%;
+    top: 15%;
+  
+
+}
+.text p{
+    
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.img1{
+    width: 60%;
+    position: relative;
+    left: 39%;
+    top: 15px;
+}
+.all{
+    width: 100%;
+    margin-left: 12%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.one{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.three{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.four{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.five{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.six{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+.all div{
+    width: 32%;
+}
+.tyt{
+    background-color: #8a8787;
+}
+.video{
+    width: 70%;
+    margin-left: 30%;
+    display: flex;
+    margin-top: 50px;
+    justify-content: space-around;
+}
+.video img{
+    width: 35%;
+}
+.vilka img{
+    width: auto;
+    height: 80%;
+    margin-left: 27%;
+}
+.all p{
+    text-align: center;
+    font-size: 30px;
+    color: #202c2d;
+background: #FFFFFF;
+text-shadow: 0 1px #808d93, -1px 0 #cdd2d5, -1px 2px #808d93, -2px 1px #cdd2d5, -2px 3px #808d93, -3px 2px #cdd2d5, -3px 4px #808d93, -4px 3px #cdd2d5, -4px 5px #808d93, -5px 4px #cdd2d5, -5px 6px #808d93, -6px 5px #cdd2d5, -6px 7px #808d93, -7px 6px #cdd2d5, -7px 8px #808d93, -8px 7px #cdd2d5;
+
+
+
+}
+.all div:hover{
+    border: 8px groove #444444;
+}
+.all div{
+    border: 8px groove #948585;
+    padding: 5px;
+    margin-bottom: 10px;
+    
+}
+body {
+	--u: 2.5vmin;
+    --c1: hsl(0deg 0% 0%);
+    --c2: hsl(212deg 4% 9%);
+    --c3: hsl(212deg 7% 36%);
+    --gp: 50%/calc(var(--u) * 5) calc(var(--u) * 10);
+    --bp: calc(var(--u) * -2.5) calc(var(--u) * -5);
+    height: 100vh;
+    --bg: 
+		radial-gradient(circle at 50% 25%, var(--c2) 23%, #fff0 25% 100%) var(--gp), 
+		conic-gradient(from 270deg at 34% 46%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from 45deg at 66% 46%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from 180deg at 50% 80%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from 135deg at 50% 80%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from 0deg at 0% 20%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		conic-gradient(from -45deg at 100% 20%, var(--c2) 0 12.5%, #fff0 0 100%) var(--gp), 
+		linear-gradient(180deg, var(--c2) 0 4.5%, #fff0 0 45.25%, var(--c2) 0 50%, #fff0 0% 100%) var(--gp), 
+		radial-gradient(circle at 50% 25%, #fff0 0 25%, var(--c2) 26% 32%, #fff0 0 100%) var(--gp), 
+		linear-gradient(165deg, var(--c3) -15%, var(--c1) 44%, #fff0 0 100%) var(--gp), 
+		linear-gradient(180deg, var(--c1) 50%, #fff0 0 100%) var(--gp);
+    background: var(--bg), var(--bg);
+    background-position: 
+		var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), var(--bp), 
+		0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0, 0 0;
+	background-color: var(--c2);
+ color: white;
+}
+
+.v1, .v3, .v2{
+    opacity: 0;
+    position: absolute;
+    font-size: 14px;
+    left: 5px;
+}
+.txt{
+    all: unset;
+    position: relative;
+}
+.one:hover + .v1{
+    opacity: 1;
+}
